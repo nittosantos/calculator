@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  background: linear-gradient(to right, #bfe9ff, #ff6e7f);
+}
+
+code {
+  font-family: "Roboto", sans-serif;
+}
