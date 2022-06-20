@@ -33,7 +33,7 @@ export const Calculator: React.FC = () => {
       setDisplayValue(String(newValues[0]));
       setOperation(equals ? null : operation);
       setCurrent(equals ? 0 : 1);
-      setClearDisplay(!equals);
+      setClearDisplay(equals);
       setValues(newValues);
     }
   }
