@@ -75,7 +75,7 @@ export const Calculator: React.FC = () => {
       <Button label="+" click={handleOperation} operation />
       <Button label="0" click={addDigit} double />
       <Button label="." click={addDigit} />
-      <Button label="=" click={handleOperation} operation />
+      <Button label="=" click={() => handleOperation(operation)} operation />
     </div>
   );
 };
